@@ -3,10 +3,10 @@ using Xunit;
 
 namespace PozitronDev.NugetTest.UnitTests
 {
-    public class UnitTest1
+    public class BasePackageTest
     {
         [Fact]
-        public void Test1()
+        public void TestBase()
         {
 
         }
