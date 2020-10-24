@@ -78,8 +78,8 @@ steps:
   displayName: 'Copy *.nupkg Files'
   inputs:
     SourceFolder: '$(Build.SourcesDirectory)'
-    Contents: '**\*.nupkg'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)\Package'
+    Contents: 'NugetTest/**/*.nupkg'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)\NugetTestPackage'
     flattenFolders: true
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
 
@@ -87,5 +87,6 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact'
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)\Package'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)\NugetTestPackage'
+    artifactName: NugetTestPackage
   condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'))
