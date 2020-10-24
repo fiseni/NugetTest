@@ -6,5 +6,6 @@ namespace PozitronDev.NugetTest.Plugin
 {
     public class PluginTestClass
     {
+        public int TestPluginProperty { get; set; }
     }
 }
