@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozitronDev.NugetTest", "NugetTest\src\PozitronDev.NugetTest\PozitronDev.NugetTest.csproj", "{0C1461C6-5C1A-4CAA-800F-4BA78DFC9B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozitronDev.NugetTest.Plugin", "NugetTestPlugin\src\PozitronDev.NugetTest.Plugin\PozitronDev.NugetTest.Plugin.csproj", "{781B78E3-D6A7-4237-82A0-4D20F4666A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozitronDev.NugetTest.UnitTests", "NugetTest\tests\PozitronDev.NugetTest.UnitTests\PozitronDev.NugetTest.UnitTests.csproj", "{87DB559C-89BA-4CC1-99E2-7F2458BE8BB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PozitronDev.NugetTest.Plugin.UnitTests", "NugetTestPlugin\tests\PozitronDev.NugetTest.Plugin.UnitTests\PozitronDev.NugetTest.Plugin.UnitTests.csproj", "{3CCC160B-7B4D-4447-A1B5-9485FA288741}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetTest", "NugetTest", "{B3BD8047-3648-45D8-B003-D1A44830A3AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetTestPlugin", "NugetTestPlugin", "{7A3C90E9-B8E2-4920-A36F-A7F61505C207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C1461C6-5C1A-4CAA-800F-4BA78DFC9B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1461C6-5C1A-4CAA-800F-4BA78DFC9B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1461C6-5C1A-4CAA-800F-4BA78DFC9B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1461C6-5C1A-4CAA-800F-4BA78DFC9B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781B78E3-D6A7-4237-82A0-4D20F4666A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781B78E3-D6A7-4237-82A0-4D20F4666A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781B78E3-D6A7-4237-82A0-4D20F4666A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781B78E3-D6A7-4237-82A0-4D20F4666A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DB559C-89BA-4CC1-99E2-7F2458BE8BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DB559C-89BA-4CC1-99E2-7F2458BE8BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DB559C-89BA-4CC1-99E2-7F2458BE8BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DB559C-89BA-4CC1-99E2-7F2458BE8BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCC160B-7B4D-4447-A1B5-9485FA288741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCC160B-7B4D-4447-A1B5-9485FA288741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCC160B-7B4D-4447-A1B5-9485FA288741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCC160B-7B4D-4447-A1B5-9485FA288741}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C1461C6-5C1A-4CAA-800F-4BA78DFC9B80} = {B3BD8047-3648-45D8-B003-D1A44830A3AF}
+		{781B78E3-D6A7-4237-82A0-4D20F4666A34} = {7A3C90E9-B8E2-4920-A36F-A7F61505C207}
+		{87DB559C-89BA-4CC1-99E2-7F2458BE8BB1} = {B3BD8047-3648-45D8-B003-D1A44830A3AF}
+		{3CCC160B-7B4D-4447-A1B5-9485FA288741} = {7A3C90E9-B8E2-4920-A36F-A7F61505C207}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43BE08BE-A6CC-49EB-9EB6-7F501F453D6C}
+	EndGlobalSection
+EndGlobal
